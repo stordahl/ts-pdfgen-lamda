@@ -1,0 +1,14 @@
+[build]
+  command = "#"
+
+[functions]
+  directory = "functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[dev]
+  functionsPort = 7000

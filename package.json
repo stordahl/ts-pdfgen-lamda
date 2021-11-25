@@ -1,0 +1,27 @@
+{
+  "name": "ts-pdfgen-lamda",
+  "version": "0.0.1",
+  "description": "Typescript endpoint that generates a pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stordahl/ts-pdfgen-lamda.git"
+  },
+  "author": "Jacob Stordahl",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/stordahl/ts-pdfgen-lamda/issues"
+  },
+  "homepage": "https://github.com/stordahl/ts-pdfgen-lamda#readme",
+  "dependencies": {
+    "@netlify/functions": "^0.10.0",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/pdfkit": "^0.12.3",
+    "typescript": "^4.5.2"
+  }
+}
